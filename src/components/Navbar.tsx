@@ -44,7 +44,7 @@ export default function Navbar() {
           className="text-lg font-semibold tracking-tight"
           onClick={() => setOpen(false)}
         >
-          Jakub Kierat<span className="text-gradient">.</span>
+          Jakub Kierat
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">

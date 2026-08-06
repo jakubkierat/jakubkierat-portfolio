@@ -58,12 +58,12 @@ export default function ProjectCard({
         </a>
 
         <div className="p-6">
-          <h3 className="font-medium">{project.title}</h3>
-          <p className="text-sm text-muted">{project.tagline}</p>
+          <p className="text-sm text-muted">{project.description}</p>
 
-          <p className="mt-4 text-sm text-muted">{project.description}</p>
-
-          <ul className="mt-4 space-y-1.5">
+          <p className="mt-5 text-xs font-medium uppercase tracking-widest text-muted/70">
+            Funkcje
+          </p>
+          <ul className="mt-2 space-y-1.5">
             {project.highlights.map((h) => (
               <li key={h} className="flex gap-2 text-sm text-muted">
                 <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-accent-2" />
@@ -72,7 +72,10 @@ export default function ProjectCard({
             ))}
           </ul>
 
-          <div className="mt-5 flex flex-wrap gap-2">
+          <p className="mt-5 text-xs font-medium uppercase tracking-widest text-muted/70">
+            Technologie
+          </p>
+          <div className="mt-2 flex flex-wrap gap-2">
             {project.tags.map((tag) => (
               <span
                 key={tag}
