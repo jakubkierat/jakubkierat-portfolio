@@ -30,10 +30,10 @@ export async function POST(request: Request) {
   const resend = new Resend(apiKey);
 
   const { error } = await resend.emails.send({
-    from: "Portfolio <onboarding@resend.dev>",
+    from: "Zlecenie <onboarding@resend.dev>",
     to,
     replyTo: email,
-    subject: `Nowe zapytanie z portfolio od ${name}`,
+    subject: `Nowe zlecenie od ${name}`,
     text: [
       `Imię i nazwisko: ${name}`,
       `E-mail: ${email}`,
