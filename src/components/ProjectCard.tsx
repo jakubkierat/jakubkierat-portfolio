@@ -54,6 +54,7 @@ export default function ProjectCard({
               sizes="(min-width: 640px) 50vw, 100vw"
               className="object-contain object-top transition-transform duration-500 group-hover:scale-[1.03]"
             />
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-surface to-transparent" />
           </div>
         </a>
 
