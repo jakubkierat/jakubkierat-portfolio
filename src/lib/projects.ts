@@ -80,4 +80,21 @@ export const projects: Project[] = [
     image: "/projects/winnica-lumen.png",
     accent: "from-rose-950 to-amber-300",
   },
+  {
+    slug: "fadeco",
+    title: "Fadeco",
+    tagline: "Barbershop z rezerwacją wizyt online",
+    description:
+      "Strona barbershopu z kreatorem rezerwacji wizyt. Dostępne terminy liczą się na bieżąco na podstawie grafiku barbera i długości usługi, więc podwójna rezerwacja tego samego terminu nie jest możliwa.",
+    highlights: [
+      "Kreator rezerwacji: usługa, barber, termin, dane, płatność",
+      "Zadatek online lub płatność w salonie do wyboru",
+      "Wolne godziny liczone na żywo, bez ryzyka kolizji terminów",
+    ],
+    tags: ["Next.js", "React", "Tailwind CSS"],
+    url: "https://github.com/jakubkierat/fadeco",
+    year: "2026",
+    image: "/projects/fadeco.png",
+    accent: "from-emerald-500 to-teal-900",
+  },
 ];
