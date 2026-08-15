@@ -92,7 +92,7 @@ export const projects: Project[] = [
       "Wolne godziny liczone na żywo, bez ryzyka kolizji terminów",
     ],
     tags: ["Next.js", "React", "Tailwind CSS"],
-    url: "https://github.com/jakubkierat/fadeco",
+    url: "https://jakubkierat.github.io/fadeco/",
     year: "2026",
     image: "/projects/fadeco.png",
     accent: "from-emerald-500 to-teal-900",
