@@ -13,6 +13,23 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "terra-pot",
+    title: "Terra & Pot",
+    tagline: "Sklep z roślinami i akcesoriami ogrodniczymi",
+    description:
+      "Sklep e-commerce z roślinami doniczkowymi, donicami, narzędziami i akcesoriami ogrodniczymi. Katalog w układzie masonry z filtrami, koszyk, checkout oraz dziennik z poradnikami pielęgnacyjnymi.",
+    highlights: [
+      "Katalog produktów w układzie masonry z filtrowaniem i wyszukiwarką",
+      "Koszyk, lista życzeń i trzykrokowy proces zamówienia",
+      "Dziennik: artykuły poradnikowe powiązane z konkretnymi produktami",
+    ],
+    tags: ["Next.js", "E-commerce", "Content design"],
+    url: "https://jakubkierat.github.io/terra-pot/",
+    year: "2026",
+    image: "/projects/terra-pot.png",
+    accent: "from-emerald-800 to-amber-400",
+  },
+  {
     slug: "fabryka-virali",
     title: "Fabryka Virali",
     tagline: "Agencja social media i produkcji wideo",
